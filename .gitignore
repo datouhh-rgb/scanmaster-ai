@@ -1,0 +1,37 @@
+# Xcode per-user state
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# Build products
+DerivedData/
+build/
+.build/
+TestResults/
+Archives/
+*.ipa
+*.xcarchive
+*.xcresult
+*.dSYM.zip
+*.dSYM
+*.profdata
+*.trace
+
+# Swift Package Manager
+.swiftpm/
+Package.resolved
+
+# macOS
+.DS_Store
+
+# Temporary exports
+*.tmp
+*.log
+
+# Local signing and environment secrets
+*.mobileprovision
+*.p12
+.env
+.env.*
+!.env.example
